@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86019B6D20A2CBF800B348A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B6C20A2CBF800B348A4 /* AppDelegate.m */; };
+		86019B7020A2CBF800B348A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B6F20A2CBF800B348A4 /* ViewController.m */; };
+		86019B7320A2CBF800B348A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86019B7120A2CBF800B348A4 /* Main.storyboard */; };
+		86019B7520A2CBF800B348A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86019B7420A2CBF800B348A4 /* Assets.xcassets */; };
+		86019B7820A2CBF800B348A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86019B7620A2CBF800B348A4 /* LaunchScreen.storyboard */; };
+		86019B7B20A2CBF800B348A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B7A20A2CBF800B348A4 /* main.m */; };
+		86019B8720A2CDBD00B348A4 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B8620A2CDBD00B348A4 /* MovieModel.m */; };
+		86019B8A20A2CDE300B348A4 /* MovieViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B8920A2CDE300B348A4 /* MovieViewModel.m */; };
+		86019B8E20A2D2A500B348A4 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B8D20A2D2A500B348A4 /* MovieCell.m */; };
+		86019B9220A2E4E900B348A4 /* ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B9120A2E4E900B348A4 /* ZXPUnicode.m */; };
+		86019B9520A2E8E800B348A4 /* RatingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B9420A2E8E800B348A4 /* RatingModel.m */; };
+		86019B9B20A2EA2600B348A4 /* ImagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86019B9A20A2EA2600B348A4 /* ImagesModel.m */; };
+		F29F403F5462C797773CCF57 /* libPods-racMVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 426BA0D44B4EB01AD8E914B3 /* libPods-racMVVM.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		426BA0D44B4EB01AD8E914B3 /* libPods-racMVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-racMVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494AB4FEF1821EA5074BB98E /* Pods-racMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-racMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-racMVVM/Pods-racMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		86019B6820A2CBF800B348A4 /* racMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = racMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86019B6B20A2CBF800B348A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86019B6C20A2CBF800B348A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86019B6E20A2CBF800B348A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86019B6F20A2CBF800B348A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86019B7220A2CBF800B348A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86019B7420A2CBF800B348A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86019B7720A2CBF800B348A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86019B7920A2CBF800B348A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86019B7A20A2CBF800B348A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86019B8520A2CDBD00B348A4 /* MovieModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		86019B8620A2CDBD00B348A4 /* MovieModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
+		86019B8820A2CDE300B348A4 /* MovieViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewModel.h; sourceTree = "<group>"; };
+		86019B8920A2CDE300B348A4 /* MovieViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewModel.m; sourceTree = "<group>"; };
+		86019B8B20A2CE5300B348A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		86019B8C20A2D2A500B348A4 /* MovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		86019B8D20A2D2A500B348A4 /* MovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		86019B9020A2E4E900B348A4 /* ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPUnicode.h; sourceTree = "<group>"; };
+		86019B9120A2E4E900B348A4 /* ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPUnicode.m; sourceTree = "<group>"; };
+		86019B9320A2E8E800B348A4 /* RatingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingModel.h; sourceTree = "<group>"; };
+		86019B9420A2E8E800B348A4 /* RatingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingModel.m; sourceTree = "<group>"; };
+		86019B9920A2EA2600B348A4 /* ImagesModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesModel.h; sourceTree = "<group>"; };
+		86019B9A20A2EA2600B348A4 /* ImagesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesModel.m; sourceTree = "<group>"; };
+		C94D0767EC93040F4F45E387 /* Pods-racMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-racMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-racMVVM/Pods-racMVVM.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86019B6520A2CBF800B348A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29F403F5462C797773CCF57 /* libPods-racMVVM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B83DADE98FAB054DA0D9E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				494AB4FEF1821EA5074BB98E /* Pods-racMVVM.debug.xcconfig */,
+				C94D0767EC93040F4F45E387 /* Pods-racMVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		814627CFF8EE2A6B3603A1E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				426BA0D44B4EB01AD8E914B3 /* libPods-racMVVM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86019B5F20A2CBF800B348A4 = {
+			isa = PBXGroup;
+			children = (
+				86019B6A20A2CBF800B348A4 /* racMVVM */,
+				86019B6920A2CBF800B348A4 /* Products */,
+				41B83DADE98FAB054DA0D9E2 /* Pods */,
+				814627CFF8EE2A6B3603A1E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86019B6920A2CBF800B348A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86019B6820A2CBF800B348A4 /* racMVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86019B6A20A2CBF800B348A4 /* racMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				86019B8F20A2E4E900B348A4 /* ZXPUnicode */,
+				86019B8420A2CD9100B348A4 /* view */,
+				86019B8320A2CD8500B348A4 /* Controller */,
+				86019B8220A2CD7700B348A4 /* Model */,
+				86019B8120A2CD6700B348A4 /* ViewModel */,
+				86019B6B20A2CBF800B348A4 /* AppDelegate.h */,
+				86019B6C20A2CBF800B348A4 /* AppDelegate.m */,
+				86019B7120A2CBF800B348A4 /* Main.storyboard */,
+				86019B7420A2CBF800B348A4 /* Assets.xcassets */,
+				86019B7620A2CBF800B348A4 /* LaunchScreen.storyboard */,
+				86019B7920A2CBF800B348A4 /* Info.plist */,
+				86019B7A20A2CBF800B348A4 /* main.m */,
+				86019B8B20A2CE5300B348A4 /* PrefixHeader.pch */,
+			);
+			path = racMVVM;
+			sourceTree = "<group>";
+		};
+		86019B8120A2CD6700B348A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86019B8820A2CDE300B348A4 /* MovieViewModel.h */,
+				86019B8920A2CDE300B348A4 /* MovieViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86019B8220A2CD7700B348A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86019B8520A2CDBD00B348A4 /* MovieModel.h */,
+				86019B8620A2CDBD00B348A4 /* MovieModel.m */,
+				86019B9320A2E8E800B348A4 /* RatingModel.h */,
+				86019B9420A2E8E800B348A4 /* RatingModel.m */,
+				86019B9920A2EA2600B348A4 /* ImagesModel.h */,
+				86019B9A20A2EA2600B348A4 /* ImagesModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86019B8320A2CD8500B348A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86019B6E20A2CBF800B348A4 /* ViewController.h */,
+				86019B6F20A2CBF800B348A4 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		86019B8420A2CD9100B348A4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				86019B8C20A2D2A500B348A4 /* MovieCell.h */,
+				86019B8D20A2D2A500B348A4 /* MovieCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		86019B8F20A2E4E900B348A4 /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				86019B9020A2E4E900B348A4 /* ZXPUnicode.h */,
+				86019B9120A2E4E900B348A4 /* ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86019B6720A2CBF800B348A4 /* racMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86019B7E20A2CBF800B348A4 /* Build configuration list for PBXNativeTarget "racMVVM" */;
+			buildPhases = (
+				6F242AB5F9ABF152C0E14605 /* [CP] Check Pods Manifest.lock */,
+				86019B6420A2CBF800B348A4 /* Sources */,
+				86019B6520A2CBF800B348A4 /* Frameworks */,
+				86019B6620A2CBF800B348A4 /* Resources */,
+				D0780EACA983165070E042F2 /* [CP] Embed Pods Frameworks */,
+				8C254D03F3ACD195F75F9F04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = racMVVM;
+			productName = racMVVM;
+			productReference = 86019B6820A2CBF800B348A4 /* racMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86019B6020A2CBF800B348A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ljkj;
+				TargetAttributes = {
+					86019B6720A2CBF800B348A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 86019B6320A2CBF800B348A4 /* Build configuration list for PBXProject "racMVVM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86019B5F20A2CBF800B348A4;
+			productRefGroup = 86019B6920A2CBF800B348A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86019B6720A2CBF800B348A4 /* racMVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86019B6620A2CBF800B348A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86019B7820A2CBF800B348A4 /* LaunchScreen.storyboard in Resources */,
+				86019B7520A2CBF800B348A4 /* Assets.xcassets in Resources */,
+				86019B7320A2CBF800B348A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F242AB5F9ABF152C0E14605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-racMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C254D03F3ACD195F75F9F04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-racMVVM/Pods-racMVVM-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-racMVVM/Pods-racMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0780EACA983165070E042F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-racMVVM/Pods-racMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86019B6420A2CBF800B348A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86019B8A20A2CDE300B348A4 /* MovieViewModel.m in Sources */,
+				86019B9220A2E4E900B348A4 /* ZXPUnicode.m in Sources */,
+				86019B8720A2CDBD00B348A4 /* MovieModel.m in Sources */,
+				86019B8E20A2D2A500B348A4 /* MovieCell.m in Sources */,
+				86019B7020A2CBF800B348A4 /* ViewController.m in Sources */,
+				86019B9B20A2EA2600B348A4 /* ImagesModel.m in Sources */,
+				86019B7B20A2CBF800B348A4 /* main.m in Sources */,
+				86019B9520A2E8E800B348A4 /* RatingModel.m in Sources */,
+				86019B6D20A2CBF800B348A4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86019B7120A2CBF800B348A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86019B7220A2CBF800B348A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86019B7620A2CBF800B348A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86019B7720A2CBF800B348A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86019B7C20A2CBF800B348A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86019B7D20A2CBF800B348A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86019B7F20A2CBF800B348A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494AB4FEF1821EA5074BB98E /* Pods-racMVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49HJAMKD2L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ljkj/Desktop/racMVVM/racMVVM/PrefixHeader.pch;
+				INFOPLIST_FILE = racMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = af.racMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86019B8020A2CBF800B348A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94D0767EC93040F4F45E387 /* Pods-racMVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49HJAMKD2L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ljkj/Desktop/racMVVM/racMVVM/PrefixHeader.pch;
+				INFOPLIST_FILE = racMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = af.racMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86019B6320A2CBF800B348A4 /* Build configuration list for PBXProject "racMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86019B7C20A2CBF800B348A4 /* Debug */,
+				86019B7D20A2CBF800B348A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86019B7E20A2CBF800B348A4 /* Build configuration list for PBXNativeTarget "racMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86019B7F20A2CBF800B348A4 /* Debug */,
+				86019B8020A2CBF800B348A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86019B6020A2CBF800B348A4 /* Project object */;
+}
